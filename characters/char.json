@@ -1,0 +1,176 @@
+{
+    "character": "Gordito",
+    "fighting_styles": {
+        "archer": 0,
+        "berserker": 0,
+        "bowfighter": 0,
+        "champion": 0,
+        "dirty_fighter": 0,
+        "fencer": 0,
+        "gunslinger": 0,
+        "monster_hunter": 0,
+        "sand_dancer": 0,
+        "shieldbearer": 0,
+        "wood_walker": 0
+    },
+    "heritage": "Fionn Deis",
+    "items": [
+        "item_1",
+        "item_2",
+        "item_3"
+    ],
+    "race": "Human",
+    "rp_attributes": {
+        "age": 20,
+        "background": "",
+        "eyes": "eye colour",
+        "hair": "hair colour",
+        "height": "height",
+        "image": "C:/Users/Cameron/Documents/code/abril-theia-character-gen/images/download (3).png",
+        "languages": [
+            "language 1",
+            "language 2"
+        ],
+        "name": "name",
+        "notes": "",
+        "skin": "skin colour",
+        "weight": "weight"
+    },
+    "skills": {
+        "Animal handling": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Wisdom",
+            "value": -5
+        },
+        "Athletics": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Strength",
+            "value": -1
+        },
+        "Diplomacy": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Charisma",
+            "value": -5
+        },
+        "Geography": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": -5
+        },
+        "History": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": -5
+        },
+        "Insight": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": -5
+        },
+        "Intimidation": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Charisma",
+            "value": -5
+        },
+        "Ley Lore": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Charisma",
+            "value": -5
+        },
+        "Medicine": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": -5
+        },
+        "Nature": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": -5
+        },
+        "Perception": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Wisdom",
+            "value": -5
+        },
+        "Performance": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Charisma",
+            "value": -5
+        },
+        "Profession 1": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Strength",
+            "value": -1
+        },
+        "Profession 2": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Dexterity",
+            "value": 1
+        },
+        "Profession 3": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Constitution",
+            "value": -5
+        },
+        "Religion": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": -5
+        },
+        "Riding": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Dexterity",
+            "value": 1
+        },
+        "Stealth": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Dexterity",
+            "value": 1
+        },
+        "Subtlety": {
+            "manual": 0,
+            "proficiency": 0,
+            "stat": "Wisdom",
+            "value": -5
+        }
+    },
+    "stats": {
+        "STAT:AC": 10,
+        "STAT:CHA": 10,
+        "STAT:CON": 6,
+        "STAT:DEX": 12,
+        "STAT:HP": 8,
+        "STAT:INIT": 0,
+        "STAT:INT": 8,
+        "STAT:MOR": 30,
+        "STAT:PROF": 2,
+        "STAT:RES": 0,
+        "STAT:SPD": 30,
+        "STAT:STR": 8,
+        "STAT:WIS": 8
+    },
+    "traits": {
+        "leymancy": [],
+        "martial": [],
+        "profession": [],
+        "subtlety": []
+    }
+}

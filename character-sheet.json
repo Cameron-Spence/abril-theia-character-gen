@@ -1,0 +1,180 @@
+{
+    "character": "character_1",
+    "rp_attributes": {
+        "name": "name",
+        "age": 20,
+        "height": "height",
+        "weight": "weight",
+        "eyes": "eye colour",
+        "skin": "skin colour",
+        "hair": "hair colour",
+        "image": "./images/image_1",
+        "background": "Enter background here",
+        "notes": "Enter notes here",
+        "languages": [
+            "language 1",
+            "language 2"
+            ]
+        },
+    "traits": {
+        "martial": [
+            ],
+        "subtlety":[
+            ],
+        "profession":[
+            ],
+        "leymancy":[
+            ]
+        },
+    "stats": {
+        "STAT:STR":10,
+        "STAT:DEX":10,
+        "STAT:CON":10,
+        "STAT:INT":10,
+        "STAT:WIS":10,
+        "STAT:CHA":10,
+        "STAT:HP":8,
+        "STAT:MOR":30,
+        "STAT:AC":10,
+        "STAT:RES":0,
+        "STAT:PROF":2,
+        "STAT:SPD":30,
+        "STAT:INIT":0
+        },
+    "skills":{
+        "Animal handling": {
+            "proficiency": 0,
+            "stat": "Wisdom",
+            "value": 0,
+            "manual": 0
+        },
+        "Athletics": {
+            "proficiency": 0,
+            "stat": "Dexterity",
+            "value": 0,
+            "manual": 0
+        },
+        "Diplomacy": {
+            "proficiency": 0,
+            "stat": "Charisma",
+            "value": 0,
+            "manual": 0
+        },
+        "Geography": {
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": 0,
+            "manual": 0
+        },
+        "History": {
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": 0,
+            "manual": 0
+        },
+        "Insight": {
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": 0,
+            "manual": 0
+        },
+        "Intimidation": {
+            "proficiency": 0,
+            "stat": "Charisma",
+            "value": 0,
+            "manual": 0
+        },
+        "Ley Lore": {
+            "proficiency": 0,
+            "stat": "Charisma",
+            "value": 0,
+            "manual": 0
+        },
+        "Medicine": {
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": 0,
+            "manual": 0
+        },
+        "Nature": {
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": 0,
+            "manual": 0
+        },
+        "Perception": {
+            "proficiency": 0,
+            "stat": "Wisdom",
+            "value": 0,
+            "manual": 0
+        },
+        "Performance": {
+            "proficiency": 0,
+            "stat": "Charisma",
+            "value": 0,
+            "manual": 0
+        },
+        "Profession 1": {
+            "proficiency": 0,
+            "stat": "Constitution",
+            "value": 0,
+            "manual": 0
+        },
+        "Profession 2": {
+            "proficiency": 0,
+            "stat": "Dexterity",
+            "value": 0,
+            "manual": 0
+        },
+        "Profession 3": {
+            "proficiency": 0,
+            "stat": "Constitution",
+            "value": 0,
+            "manual": 0
+        },
+        "Religion": {
+            "proficiency": 0,
+            "stat": "Intelligence",
+            "value": 0,
+            "manual": 0
+        },
+        "Riding": {
+            "proficiency": 0,
+            "stat": "Dexterity",
+            "value": 0,
+            "manual": 0
+        },
+        "Stealth": {
+            "proficiency": 0,
+            "stat": "Dexterity",
+            "value": 0,
+            "manual": 0
+        },
+        "Subtlety": {
+            "proficiency": 0,
+            "stat": "Wisdom",
+            "value": 0,
+            "manual": 0
+        }
+        },
+    "race":"Human",
+    "heritage":"Arvaldi",
+    "items":[
+        "item_1",
+        "item_2",
+        "item_3"
+        ],
+    "fighting_styles": {
+        "bowfighter":0,
+        "sand_dancer":0,
+        "shieldbearer":0,
+        "dirty_fighter":0,
+        "fencer":0,
+        "berserker":0,
+        "champion":0,
+        "archer":0,
+        "monster_hunter":0,
+        "wood_walker":0,
+        "gunslinger":0
+        }
+    }

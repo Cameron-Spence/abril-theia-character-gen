@@ -1,0 +1,701 @@
+{
+     "races":{
+         "Alfaery":{
+             "raceName":"Alfaery",
+             "size":"Medium",
+             "image":"./bin/alfaery.png",
+             "startingStats": [
+                 8,
+                 10,
+                 6,
+                 8,
+                 8,
+                 8
+                 ],
+             "maxStats": [
+                 16,
+                 22,
+                 14,
+                 18,
+                 22,
+                 16
+                 ],
+             "baseSpeed": 30,
+             "baseHP": 6,
+             "abilities": {
+                 "Bioluminescence": {
+                     "name":"Bioluminescence",
+                     "description":"For up to 24 hours after standing in sunlight, you emit a dim light with a 10ft radius.",
+                     "modifiers": {
+                         }
+                     },
+                 "Dreamwanderer": {
+                     "name":"Dreamwanderer",
+                     "description":"Can tap into ley wells to access the Alfaren dream, exploring the lives and experiences of their ancestors for wisdom. Gain 1 trait point in the Rementoria tree.",
+                     "modifiers": {
+                         }
+                     },
+                 "Seed of the Tree": {
+                     "name":"Seed of the Tree",
+                     "description":"Alfaery are fragile creatures, but their mother tree protects them. Returning the broken body of a dead Alfaery to their mother tree within seven days can allow their spirit to return from the dream. Each Alfaery can only do this a number of times equal to their wisdom modifier before their desire to rejoin their ancestors overtakes them and their spirit is no longer willing to return (min 1).",
+                     "modifiers": {
+                         }
+                     }
+                 },
+             "heritages":{
+                 "Arctic Pine":{
+                     "name":"Arctic Pine",
+                     "description": "The Alfaery of the northern forests are well-adapted to the cold. Gain Resistance to Cold. Movement is not hindered by deep snow or icy terrain.",
+                     "image":"./bin/arctic.png",
+                     "modifiers":{
+                         }
+                     },
+                 "Autumn Oak":{
+                     "name":"Autumn Oak",
+                     "description": "The wildlands of old Beldor, now Landanor, Beranor and Thylanor, are famous for their vast red oaks that turn deep crimson in autumn. The Alfaery of that land are hardy and strong, and more resilient than their more fragile kin. Gain +2 Constitution.",
+                     "image":"./bin/autumn.png",
+                     "modifiers":{
+                         "STAT:CON": 2
+                         }
+                     },
+                 "Goldenleaf":{
+                     "name":"Goldenleaf",
+                     "description": "The Alfaery of the Golden Leaves come from the dry lands of the far east. Their trees stand as the great pillars of the savannah and the lush boughs of the uplands. Goldenleaf Alfaery do not need a source of water or food other than access to air and sunlight, and they are Resistant to Fire.",
+                     "image":"./bin/goldenleaf.png",
+                     "modifiers":{
+                         }
+                     },
+                 "Ilvelon":{
+                     "name":"Ilvelon",
+                     "description": "The Alfaery settled the lands of Ilvelon, where many mother trees were planted and grew, before falling into ruin. Some small pockets of Alfaery remain there, and their resolve has never faltered. An Ilvelon Alfaery is the first to stand against shadow, and the last to flee. Gain +6 maximum morale.",
+                     "image":"./bin/ilvelon.png",
+                     "modifiers":{
+                         "STAT:MOR": 6
+                         }
+                     },
+                 "Miredion":{
+                     "name":"Miredion",
+                     "description": "The Alfaery of Miredion lived amidst the craggy cliffs for generations, and the seedlings started to adapt to their surroundings. They grew long leaves that function as gliders (working identically to Elawegian Wind-Kites).",
+                     "image":"./bin/miredion.png",
+                     "modifiers":{
+                         }
+                     },
+                 "Spring Willow":{
+                     "name":"Spring Willow",
+                     "description": "The willows of the riverlands are home to Alfaery both light and joyous in their nature. They dance on still lakes and rushing rivers, and hide between the weeping boughs that line their banks. Increase movement speed by 10ft. Can move across water when dashing (max 1 round per point of dex bonus).",
+                     "image":"./bin/spring.png",
+                     "modifiers":{
+                         "STAT:SPD": 10
+                         }
+                     }
+                 },
+             "description":"The Alfaery are ancient, paragons of the forest and defenders of the primal dreams of the sleeping world. They are neither animal nor plant, but a being between the two - a humanoid figure, resembling a human in many ways, but formed of leaf and bark and thorn. They are long-lived, but many Alfaery will choose to join the dream long before their time is over. The Alfaery dream is a collective consciousness from which young Alfaery awaken, and to which dying Alfaery return. All Alfaery save a rare few are tied to a gigantic mother tree, and that is where their utmost loyalty and love lies. Whilst an individual Alfaery will usually live only a few hundred years before becoming weary of the world and returning to the dream, they connect to their ancestors through the shared dream, and their knowledge is invaluable. Some live longer, and a few rare Alfaery have been alive since the first trees."
+         },
+         "Gorgo":{
+             "raceName":"Gorgo",
+             "size":"Large",
+             "image":"./bin/gorgo.png",
+             "startingStats": [
+                 16,
+                 6,
+                 16,
+                 6,
+                 8,
+                 4
+                 ],
+             "maxStats": [
+                 24,
+                 12,
+                 24,
+                 14,
+                 18,
+                 12
+                 ],
+             "baseSpeed": 20,
+             "baseHP": 22,
+             "abilities": {
+                 "Slow Learner": {
+                     "name":"Slow Learner",
+                     "description":"Gorgo are physically powerful creatures, but it takes them a long time to learn new traits - and far longer to forget them. To obtain a trait, you must spend 2 trait points instead of one.",
+                     "modifiers": {
+                         }
+                     },
+                 "Bullheaded": {
+                     "name":"Bullheaded",
+                     "description":"A Gorgo can use their antlers as a natural strength-based weapon. They deal 1d8 + STR piercing damage and have a reach of 5ft. When charging more than 15ft before attacking, the damage dealt is 2d8 instead, and if the attack hits, the opponent must pass a strength save (DC your strength score) or be knocked back 10ft.",
+                     "modifiers": {
+                         }
+                     },
+                 "Huge": {
+                     "name":"Huge",
+                     "description":"The Gorgo are so massive (often upwards of 10 ft tall) that armour made for them would be impractically heavy. Gorgo cannot wear Medium or Heavy armour, and any Light armour made for them must be custom-fitted, increasing its cost by 5x. Due to their thick hide, however, they have a natural Resistance of 4.",
+                     "modifiers": {
+                         "STAT:RES": 4
+                         }
+                     },
+                 "Storyteller": {
+                     "name":"Storyteller",
+                     "description":"The Gorgo clans know tales from many distant lands. You can recall basic information about even obscure distant lands at will.",
+                     "modifiers": {
+                         }
+                     }
+                 },
+             "heritages":{
+                 "Aulk Herder":{
+                     "name":"Aulk Herder",
+                     "description": "Most Gorgo are nomadic, but some roam the western plains, herding the lumbering Aulk that are vital to their existence, both as pack animals and as food. Their oral tradition is strongest of all. Gain +2 Wisdom..",
+                     "image":"./bin/aulk.png",
+                     "modifiers":{
+                         "STAT:WIS": 2
+                         }
+                     },
+                 "Northern Clansman":{
+                     "name":"Northern Clansman",
+                     "description": "The Gorgo of the north have thick, shaggy coats to protect them from the bitter winds. Gain resistance to Cold, and are not slowed by snowy or icy terrain.",
+                     "image":"./bin/northernClansman.png",
+                     "modifiers":{
+                         }
+                     },
+                 "War-Walker":{
+                     "name":"War-Walker",
+                     "description": "The Gorgo are naturally peaceful, but some are driven to battle by anger, or fear, or a sense of justice or righteousness. Those who do adorn their antlers with spikes and blades so that they are even deadlier. Their natural antler attack deals 1d12 damage instead of 1d8.",
+                     "image":"./bin/warwalker.png",
+                     "modifiers":{
+                         }
+                     },
+                 "Wilderness Wanderer":{
+                     "name":"Wilderness Wanderer",
+                     "description": "The nomadic Gorgo face few threats that are stronger than they are, but even they must be able to outrun nature. Gain +5 ft movement speed.",
+                     "image":"./bin/wilderness.png",
+                     "modifiers":{
+                         "STAT:SPD": 5
+                         }
+                     }
+                 },
+             "description":"Of all the sentient races, Gorgo are the largest and most powerful, but also one of the most peaceful. Awoken by the Ley in the depths of time, these gentle giants have antlers as wide as humans are tall, strung with beads and feathers and chimes that ring in the wind. They are nomads and storytellers, travelling from place to place with their Aulk caravans, and camping in tents that can dwarf human dwellings. They prefer the cold reaches of the far north, but often venture as far south as the land goes, and though their journeys are slow, they live to be hundreds of years old. Their knowledge of the world is unparalleled."
+         },
+         "Grundling":{
+             "raceName":"Grundling",
+             "size":"Small",
+             "image":"./bin/grundling.png",
+             "startingStats": [
+                 6,
+                 12,
+                 10,
+                 14,
+                 6,
+                 8
+                 ],
+             "maxStats": [
+                 16,
+                 20,
+                 18,
+                 22,
+                 16,
+                 14
+                 ],
+             "baseSpeed": 20,
+             "baseHP": 6,
+             "abilities": {
+                 "Bioluminescence": {
+                     "name":"Bioluminescence",
+                     "description":"Grundlings have a bioluminescent bulb protruding from their heads to grant them light in the deep places of the world. They can extinguish it at will, though it is usually lit, especially when asleep. As long as the Grundling is in good health, it can grant dim light in a 10ft radius.",
+                     "modifiers": {
+                         }
+                     },
+                 "Brave": {
+                     "name":"Brave",
+                     "description":"Grundlings are not easily chased from the field. Once Broken, they can lurk on the edges of the battlefield and perform actions, though they may not willingly come within 30 ft. of any hostile creature. They can no longer take bonus actions or reactions.",
+                     "modifiers": {
+                         }
+                     },
+                 "Groundsense": {
+                     "name":"Groundsense",
+                     "description":"Grundlings never lose their sense of direction underground. Their bioluminescent bulb doubles as a compass, attracted to light-conducting Ley crystal veins in the world that form a map seen only by them.",
+                     "modifiers": {
+                         }
+                     },
+                 "Short and Stout": {
+                     "name":"Short and Stout",
+                     "description":"Grundlings are Small creatures. This makes them naturally stealthy. Some have a penchant for being light-fingered, whilst others make use of this to travel unseen. Gain one free trait in the Subtlety tree.",
+                     "modifiers": {
+                         }
+                     }
+                 },
+             "heritages":{
+                 "Crystalline":{
+                     "name":"Crystalline",
+                     "description": "Some Grundlings become enamoured with the Crystals that slice through the world in their veins and channels, and they encase themselves in the liquid crystal to harden their bodies against attack in imitation of the Galvi. Gain 2 Resistance.",
+                     "image":"./bin/crystalline.png",
+                     "modifiers":{
+                         "STAT:RES": 2
+                         }
+                     },
+                 "Deep Dweller":{
+                     "name":"Deep Dweller",
+                     "description": "The Grundlings that live in the deepest places of the world know the value of travelling lightly. Gain +2 Dexterity.",
+                     "image":"./bin/deepDweller.png",
+                     "modifiers":{
+                         "STAT:DEX": 2 
+                         }
+                     },
+                 "Surface Dweller":{
+                     "name":"Surface Dweller",
+                     "description": "These Grundlings have forsaken their tunnel homes and gone to live amongst humans on the surface. They are often employed as jewelcrafters, prospectors, scribes, or academics, whilst some few take up arms and become scouts or bodyguards, using their unassuming stature to their advantage. Gain +2 Charisma.",
+                     "image":"./bin/surfaceDweller.png",
+                     "modifiers":{
+                         "STAT:CHA": 2
+                         }
+                     },
+                 "Water Dweller":{
+                     "name":"Water Dweller",
+                     "description": "Some Grundlings have evolved to live in caves beneath the ocean, or flooded caverns filled to the roof with black water. They have webbed hands and feet, and their eyes are large and bulbous to see in the murky depths. They are able to breathe water indefinitely, and gain +20 ft. swim speed.",
+                     "image":"./bin/waterDweller.png",
+                     "modifiers":{
+                         }
+                     }
+                 },
+             "description":"The Grundlingfolk are strange to most on Abril Theia. They dwell underground for the most part, and many spend their entire lives beneath the surface of the world. They have their own natural light source, and are crafty, hardy, and curious about the world above. Their life underground gives them a short stature, making them excellent for accessing difficult places, although they are rather fragile. Grundlings do not have genders, and can both lay and fertilize eggs (though it is considered very socially unacceptable to fertilize one's own eggs). They also do not have much of a warrior society, and generally prefer industry and craft over warfare."
+         },
+         "Human":{
+             "raceName":"Human",
+             "size":"Medium",
+             "image":"./bin/human.png",
+             "startingStats": [
+                 8,
+                 8,
+                 6,
+                 8,
+                 8,
+                 10
+                 ],
+             "maxStats": [
+                 18,
+                 18,
+                 16,
+                 22,
+                 18,
+                 22
+                 ],
+             "baseSpeed": 30,
+             "baseHP": 8,
+             "abilities": {
+                 "Human Perseverence": {
+                     "name":"Human Perseverence",
+                     "description":"One per day, the first time you would Break, instead restore 10 morale.",
+                     "modifiers": {
+                         }
+                     },
+                 "Industrious": {
+                     "name":"Industrious",
+                     "description":"Gain two free traits in the Professions tree.",
+                     "modifiers": {
+                         }
+                     }
+                 },
+             "heritages":{
+                 "Atlesian":{
+                     "name":"Atlesian",
+                     "description": "You are a child of Atlas, the land of invention. Education is highly prized here, and its isolation has fostered a culture amongst Atlesians of intellectual competition. Gain +2 Intelligence.",
+                     "image":"./bin/atlas.png",
+                     "modifiers": {
+                         "STAT:INT": 2
+                         }
+                     },
+                 "Arvaldi":{
+                     "name":"Arvaldi",
+                     "description": "The people of Arvald are amongst the hardiest in the world, their toughness borne of lives spent in the shadow of the Titanpeaks. Gain +2 Constitution.",
+                     "image":"./bin/arvald.png",
+                     "modifiers":{
+                         "STAT:CON": 2
+                         }
+                     },
+                 "Costanian":{
+                     "name":"Costanian",
+                     "description": "The people of Costany are strange, their traditions rooted in laws from an age thousands of years past. Some have little relevance, yet the rigidity of their culture gives them a strength of mind few can match. Their land has been torn by religious war, and whichever side of the Great Divide a Costanian lies on, you can expect them to be deeply seated in their morals and wisdom. Gain +2 Wisdom.",
+                     "image":"./bin/costany.png",
+                     "modifiers":{
+                         "STAT:WIS": 2
+                         }
+                     },
+                 "Daggoran":{
+                     "name":"Daggoran",
+                     "description": "The people of Daggorain have adapted to their environment, growing tough plates on their heads that can resemble horns, shields, or even helmets. They have a natural resistance that can protect them from glancing blows. Gain +1 Resistance.",
+                     "image":"./bin/daggorain.png",
+                     "modifiers":{
+                         "STAT:RES": 1
+                         }
+                     },
+                 "Fionn Deis":{
+                     "name":"Fionn Deis",
+                     "description": "The native people of Caledor are hardy and strong. They have a mistrust of outsiders after centuries of conquest, and their clans have been driven into the hills by invaders. But they know the value of kinship and drink, and a friendship with a Fionn is not easily forgotten. Gain +2 Strength.",
+                     "image":"./bin/caledor.png",
+                     "modifiers":{
+                         "STAT:STR": 2
+                         }
+                     },
+                 "Gallain":{
+                     "name":"Gallain",
+                     "description": "The far-flung people of Gallain live amidst the shadow of giants. Gallain is a land of extremes: vast beasts roam the valleys, and giants arise from their underground halls to march on the long road to the ocean. When you live in a land of giants, you know how to run. Fast. Gain +5 ft. movement speed.",
+                     "image":"./bin/gallain.png",
+                     "modifiers":{
+                         "STAT:SPD": 5
+                         }
+                     },
+                 "Landanori":{
+                     "name":"Landanori",
+                     "description": "Landanor is the remnant of Beldor of old, occupying the lands north of the Inland Sea. Its people are cheerful and warm, accepting of outsiders and preferring to trade ale rather than blows. But old rivalries linger in this region, especially between Beranor and Thylanor, two small kingdoms who each claim the legacy of Beldor for their own. Gain +2 Charisma.",
+                     "image":"./bin/landanor.png",
+                     "modifiers":{
+                         "STAT:CHA": 2
+                         }
+                     },
+                 "Ostenyan":{
+                     "name":"Ostenyan",
+                     "description": "The people of Ostenya live in the oldest country in the world. Ostenya was the first land to raise its banners as a kingdom before the Age of Writing, and it has endured through the ages. The resilience of its people matches its history. Gain +6 Morale.",
+                     "image":"./bin/ostenya.png",
+                     "modifiers":{
+                         "STAT:MOR": 6
+                         }
+                     },
+                 "Palavian":{
+                     "name":"Palavian",
+                     "description": "The golden-haried Palavian people hail from the rolling hills of Ildevan, or the crystal-clear streams of the Braided Dells. The people of Palavelle are known world-over for their generosity and politeness, and their chivalrous knights have a fearsome reputation in tournaments. Gain +2 Charisma.",
+                     "image":"./bin/palavelle.png",
+                     "modifiers":{
+                         "STAT:CHA": 2
+                         }
+                     },
+                 "Torathian":{
+                     "name":"Torathian",
+                     "description": "The people of Torathia live in the shadow of the past, ancient palaces rising through the leaves of the jungle. Their history lies all around them, and they live with the wisdom of many ages to guide them. Order and discipline are prized by the Torathi, and laziness and sloth reviled. They are a people highly in tune with nature, and there are some who call themselves kin with the creatures of the land. Gain +2 Wisdom.",
+                     "image":"./bin/torathia.png",
+                     "modifiers":{
+                         "STAT:WIS": 2
+                         }
+                     },
+                 "Turalic":{
+                     "name":"Turalic",
+                     "description": "The warm deserts of Turalym are home to the remnants of the ancient Tural-Mokhar, a slender and lithe people who dance amidst the sands of their ancestors. The Turals are fond of laughter and jokes, but their sense of loyalty also runs deep, and kinship with a Tural is not easily forgotten. Gain +2 Dexterity.",
+                     "image":"./bin/turalym.png",
+                     "modifiers":{
+                         "STAT:DEX": 2
+                         }
+                     }
+                 },
+             "description":"The most prevalent race on Abril Theia, humans are both short-lived and prolific, two attributes that have contributed to their rapid expansion across the continent. They have proven to be resourceful and brave, if tribalistic, and it is rare to find a cultural group that does not include humans. They are defined more by the culture they have lived in than their physical characteristics, and so a human of any appearance can be from any culture. "
+         },
+         "Lupari":{
+             "raceName":"Lupari",
+             "size":"Medium",
+             "image":"./bin/lupari.png",
+             "startingStats": [
+                 12,
+                 16,
+                 8,
+                 8,
+                 8,
+                 6
+                 ],
+             "maxStats": [
+                 20,
+                 24,
+                 18,
+                 20,
+                 18,
+                 14
+                 ],
+             "baseSpeed": 30,
+             "baseHP": 14,
+             "abilities": {
+                 "Slow Learner": {
+                     "name":"Slow Learner",
+                     "description":"Lupari are physically powerful creatures, but it takes them a long time to learn new traits - and far longer to forget them. To obtain a trait, you must spend 2 trait points instead of one.",
+                     "modifiers": {
+                         }
+                     },
+                 "Wolf Maw": {
+                     "name":"Wolf Maw",
+                     "description":"Lupari have sharp and deadly natural weapons. They may use their bite attack as a strength-based melee attack, dealing 1d8 + STR piercing damage. If this attack hits, you may immediately make a claw attack as a bonus action, dealing 1d6 + STR.",
+                     "modifiers": {
+                         }
+                     },
+                 "Huge": {
+                     "name":"Huge",
+                     "description":"The Lupari are so large (often upwards of 8 ft tall) that armour made for them would be impractically heavy. Lupari cannot wear Heavy armour, and any Light or Medium armour made for them must be custom-fitted, increasing its cost by 5x.",
+                     "modifiers": {
+                         }
+                     },
+                 "Pack Tactics": {
+                     "name":"Pack Tactics",
+                     "description":"Lupari work best when they work together. When a Lupari is within 10 ft. of an ally, they suffer 2 less Morale damage when taking morale damage.",
+                     "modifiers": {
+                         }
+                     }
+                 },
+             "heritages":{
+                 "Desert Prowler":{
+                     "name":"Desert Prowler",
+                     "description": "The dry hills that border Turalym and the vast savannah are home to thin, rangy Lupari that lurk amidst the rocks to pounce on unwary prey. Desert Prowler Lupari gain 1d6 sneak attack damage.",
+                     "image":"./bin/desertProwler.png",
+                     "modifiers":{
+                         }
+                     },
+                 "Jorvaelkar Lupari":{
+                     "name":"Jorvaelkar Lupari",
+                     "description": "The Lupari of the vast northern island of Jorvaelkar are hostile and savage. Their fangs are longer than others, dealing 1d10 damage instead of 1d8. Their fur is longer and thicker than most, granting them resistance to cold damage.",
+                     "image":"./bin/jorvaelkar.png",
+                     "modifiers":{
+                         }
+                     },
+                 "Forest Dweller":{
+                     "name":"Forest Dweller",
+                     "description": "Most Lupari live in deep in the thick forest, far from the smells and prejudices of civilization. They are fast and and their hides are thick to survive in the wild with minimal technology. They gain 5ft movement speed, and 2 natural Resistance.",
+                     "image":"./bin/warwalker.png",
+                     "modifiers":{
+                         "STAT:SPD": 5,
+                         "STAT:RES": 2
+                         }
+                     },
+                 "Street Wolf":{
+                     "name":"Street Wolf",
+                     "description": "It is not uncommon for Lupari to make their way in civilization. They are feared and reviled in many places, but rarely challenged when they travel in numbers. Lupari make excellent guards, muscle, assassins, scouts, and bodyguards. Gain +2 Charisma.",
+                     "image":"./bin/streetWolf.png",
+                     "modifiers":{
+                         "STAT:CHA": 2
+                         }
+                     }
+                 },
+             "description":"The wolflike appearance of the Lupari betrays a race that values nurturing and family above all else. Lupari prefer isolation from civilization, and build forest villages with their huge families, often upwards of several hundred members. They are fast, strong, and intelligent, and intimidating to the smaller races. They dress in simple linen kilts and harnesses fashioned from the skins of their prey, and often wield huge claymores, warhammers, and axes that lesser races would struggle to lift. Lupari can communicate over vast distances with their Howlsong, a simple language that can convey simple meaning over many kilometres."
+         }
+     },
+     "modifiers":{
+         "STAT:STR":{
+             "name":"Strength",
+             "index":0
+             },
+         "STAT:DEX":{
+             "name":"Dexterity",
+             "index":1
+             },
+         "STAT:CON":{
+             "name":"Constitution",
+             "index":2
+             },
+         "STAT:INT":{
+             "name":"Intelligence",
+             "index":3
+             },
+         "STAT:WIS":{
+             "name":"Wisdom",
+             "index":4
+             },
+         "STAT:CHA":{
+             "name":"Charisma",
+             "index":5
+             },
+         "STAT:HP":{
+             "name":"HP",
+             "index":6
+             },
+         "STAT:MOR":{
+             "name":"Morale",
+             "index":7
+             },
+         "STAT:AC":{
+             "name":"Armour Class",
+             "index":8
+             },
+         "STAT:RES":{
+             "name":"Resistance",
+             "index":9
+             },
+         "STAT:PROF":{
+             "name":"Proficiency Modifier",
+             "index":10
+             },
+         "STAT:SPD":{
+             "name":"Movement Speed",
+             "index":11
+             },
+         "STAT:INIT":{
+             "name":"Initiative",
+             "index":12
+             },
+         "STAT:PHYSICAL":{
+             "name":"Any Physical",
+             "index":97
+             },
+         "STAT:MENTAL":{
+             "name":"Any Mental",
+             "index":98
+             },
+         "STAT:ANY":{
+             "name":"Any",
+             "index":99
+             }
+         },
+     "skills":{
+        "Animal handling":{
+            "name":"Animal handling",
+            "stat":"STAT:WIS"
+            },
+        "Athletics":{
+            "name":"Athletics",
+            "stat":"STAT:PHYSICAL"
+            },
+        "Diplomacy":{
+            "name":"Diplomacy",
+            "stat":"STAT:MENTAL"
+            },
+        "Geography":{
+            "name":"Geography",
+            "stat":"STAT:INT"
+            },
+        "History":{
+            "name":"History",
+            "stat":"STAT:INT"
+            },
+        "Insight":{
+            "name":"Insight",
+            "stat":"STAT:MENTAL"
+            },
+        "Intimidation":{
+            "name":"Intimidation",
+            "stat":"STAT:CHA"
+            },
+        "Ley Lore":{
+            "name":"Ley Lore",
+            "stat":"STAT:MENTAL"
+            },
+        "Medicine":{
+            "name":"Medicine",
+            "stat":"STAT:INT"
+            },
+        "Nature":{
+            "name":"Nature",
+            "stat":"STAT:INT"
+            },
+        "Perception":{
+            "name":"Perception",
+            "stat":"STAT:WIS"
+            },
+        "Performance":{
+            "name":"Performance",
+            "stat":"STAT:CHA"
+            },
+        "Profession 1":{
+            "name":"Profession 1",
+            "stat":"STAT:ANY"
+            },
+        "Profession 2":{
+            "name":"Profession 2",
+            "stat":"STAT:ANY"
+            },
+        "Profession 3":{
+            "name":"Profession 3",
+            "stat":"STAT:ANY"
+            },
+        "Religion":{
+            "name":"Religion",
+            "stat":"STAT:INT"
+            },
+        "Riding":{
+            "name":"Riding",
+            "stat":"STAT:DEX"
+            },
+        "Stealth":{
+            "name":"Stealth",
+            "stat":"STAT:DEX"
+            },
+        "Subtlety":{
+            "name":"Subtlety",
+            "stat":"STAT:MENTAL"
+            }
+         },
+    "traits":{
+        "leymancy":{
+            "trait-1":{
+                "name": "Tiller",
+                "rank":0,
+                "group":"Farmer",
+                "prerequisites":[],
+                "description": "You have proficiency in Geography checks in areas similar to one you have farmed for at least a year. Gain a Contact in that area.",
+                "modifiers":{},
+                "proficiency":["Geography"]
+                }
+            },
+        "martial":{
+            "trait-1":{
+                "name": "Tiller",
+                "rank":0,
+                "group":"Farmer",
+                "prerequisites":[],
+                "description": "You have proficiency in Geography checks in areas similar to one you have farmed for at least a year. Gain a Contact in that area.",
+                "modifiers":{},
+                "proficiency":["Geography"]
+                }
+            },
+        "profession":{
+            "Farmer Rank 0":{
+                "name": "Tiller",
+                "rank":0,
+                "group":"Farmer",
+                "prerequisites":[],
+                "description": "You have proficiency in Geography checks in areas similar to one you have farmed for at least a year. Gain a Contact in that area.",
+                "modifiers":{},
+                "proficiency":["Geography"]
+                },
+            "Farmer Rank 1":{
+                "name":"Sowing Day",
+                "rank":1,
+                "group":"Farmer",
+                "prerequisites":["Farmer Rank 0"],
+                "description": "You know how to recover seeds from most types of plant.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Farmer Rank 2":{
+                "name":"Farmer's Boon",
+                "rank":2,
+                "group":"Farmer",
+                "prerequisites":["Farmer Rank 1"],
+                "description": "You know how to farm most kinds of plants. Seeds you plant from a single plant can yield five plants within three months' harvest.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Farmer Rank 3":{
+                "name":"Harvest Day",
+                "rank":3,
+                "group":"Farmer",
+                "prerequisites":["Farmer Rank 2"],
+                "description": "Seeds you plant from a single plant can yield ten plants within three months' harvest.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Farmer Rank 4":{
+                "name":"Star Quality",
+                "rank":4,
+                "group":"Farmer",
+                "prerequisites":["Farmer Rank 3"],
+                "description": "The crops you produce are worth 20% more. Alchemical concoctions made with ingredients you have grown are 20% more effective.",
+                "modifiers":{
+                    "STAT:DEX":-2
+                    },
+                "proficiency":[]
+                }
+            },
+        "subtlety":{
+            "trait-1":{
+                "name": "Tiller",
+                "rank":0,
+                "group":"Farmer",
+                "prerequisites":[],
+                "description": "You have proficiency in Geography checks in areas similar to one you have farmed for at least a year. Gain a Contact in that area.",
+                "modifiers":{},
+                "proficiency":["Geography"]
+                    }
+            }
+         }
+ 
+ }
