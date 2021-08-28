@@ -680,8 +680,448 @@
                 "prerequisites":["Farmer Rank 3"],
                 "description": "The crops you produce are worth 20% more. Alchemical concoctions made with ingredients you have grown are 20% more effective.",
                 "modifiers":{
-                    "STAT:DEX":-2
                     },
+                "proficiency":[]
+                },
+            "Alchemy Rank 0":{
+                "name": "Apprentice Alchemist",
+                "rank":0,
+                "group":"Alchemy",
+                "prerequisites":[],
+                "description": "Proficiency: Nature. Gain a Contact (an alchemist you apprenticed for). You can brew Extracts using 5 reagents.",
+                "modifiers":{},
+                "proficiency":["Nature"]
+                },
+            "Alchemy Rank 1":{
+                "name": "Herbalism",
+                "rank":1,
+                "group":"Alchemy",
+                "prerequisites":["Alchemy Rank 0"],
+                "description": "During a short rest, you may attempt a Nature check to gather reagents. The reagents gathered depend on the location and on the result of the check: 10+: common reagents, 15+: uncommon reagents, 20+: rare reagents.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Alchemy Rank 2":{
+                "name": "Basic Concoctions",
+                "rank":2,
+                "group":"Alchemy",
+                "prerequisites":["Alchemy Rank 1"],
+                "description": "You can brew Concoctions using 5 reagents.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Alchemy Rank 3":{
+                "name": "Herblore",
+                "rank":3,
+                "group":"Alchemy",
+                "prerequisites":["Alchemy Rank 2"],
+                "description": "You know the uses of local Common herbs, and can discern the uses of unfamiliar Common herbs with a DC 10 Nature check.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Alchemy Rank 4":{
+                "name": "Advanced Extracts",
+                "rank":4,
+                "group":"Alchemy",
+                "prerequisites":["Alchemy Rank 3"],
+                "description": "You can brew Extracts using 10 reagents.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Alchemy Rank 5":{
+                "name": "Advanced Herblore",
+                "rank":5,
+                "group":"Alchemy",
+                "prerequisites":["Alchemy Rank 4"],
+                "description": "You know the uses of local Uncommon herbs, and can discern the uses of unfamiliar Uncommon herbs with a DC 15 Nature check.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Alchemy Rank 6":{
+                "name": "Advanced Concoctions",
+                "rank":6,
+                "group":"Alchemy",
+                "prerequisites":["Alchemy Rank 5"],
+                "description": "You can brew Concoctions using 10 reagents.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Alchemy Rank 7":{
+                "name": "Expert Herblore",
+                "rank":7,
+                "group":"Alchemy",
+                "prerequisites":["Alchemy Rank 6"],
+                "description": "You know the uses of local Rare herbs, and can discern the uses of unfamiliar Rare herbs with a DC 20 Nature check.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Alchemy Rank 8":{
+                "name": "Expert Extracts",
+                "rank":8,
+                "group":"Alchemy",
+                "prerequisites":["Alchemy Rank 7"],
+                "description": "You can brew Extracts using 15 reagents.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Alchemy Rank 9":{
+                "name": "Expert Concoctions",
+                "rank":9,
+                "group":"Alchemy",
+                "prerequisites":["Alchemy Rank 8"],
+                "description": "You can brew Concoctions using 15 reagents.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Tailor Rank 0":{
+                "name": "Apprentice Tailor",
+                "rank":0,
+                "group":"Tailor",
+                "prerequisites":[],
+                "description": "Can craft basic clothes and cloth items. Gain a Contact (a tailor you apprenticed for).",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Tailor Rank 1":{
+                "name": "Basic Repair",
+                "rank":1,
+                "group":"Tailor",
+                "prerequisites":["Tailor Rank 0"],
+                "description": "During a short rest, can repair one item of clothing or Light armour, restoring 1 lost Resistance.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Tailor Rank 2":{
+                "name": "Light Armour Crafting",
+                "rank":2,
+                "group":"Tailor",
+                "prerequisites":["Tailor Rank 1"],
+                "description": "Can craft Crude Light Armour (same stats as Light armour but -1 max Resistance).",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Tailor Rank 3":{
+                "name": "Advanced Light Armour Crafting",
+                "rank":3,
+                "group":"Tailor",
+                "prerequisites":["Tailor Rank 2"],
+                "description": "Can craft normal Light Armour.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Tailor Rank 4":{
+                "name": "Advanced Repair",
+                "rank":4,
+                "group":"Tailor",
+                "prerequisites":["Tailor Rank 3"],
+                "description": "During a short rest, can repair one item of clothing or Light armour, restoring 2 lost Resistance.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Tailor Rank 5":{
+                "name": "Expert Light Armour Crafting",
+                "rank":5,
+                "group":"Tailor",
+                "prerequisites":["Tailor Rank 4"],
+                "description": "Can craft Masterwork Light Armour (+1 max Resistance) and clothing.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 0":{
+                "name": "Apprentice Blacksmith",
+                "rank":0,
+                "group":"Blacksmith",
+                "prerequisites":[],
+                "description": "Can craft basic tools and metalwork items; gain a Contact (a smith who you apprenticed for).",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 1":{
+                "name": "Basic Armour Repair",
+                "rank":1,
+                "group":"Blacksmith",
+                "prerequisites":["Blacksmith Rank 0"],
+                "description": "During a short rest, can repair one item of Medium or Heavy armour, restoring 1 lost Resistance.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 2":{
+                "name": "Basic Weaponsmith",
+                "rank":2,
+                "group":"Blacksmith",
+                "prerequisites":["Blacksmith Rank 1"],
+                "description": "Can craft Simple and Martial weaponry.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 3":{
+                "name": "Basic Armoursmith",
+                "rank":3,
+                "group":"Blacksmith",
+                "prerequisites":["Blacksmith Rank 2"],
+                "description": "Can craft Crude Medium armour.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 4":{
+                "name": "Advanced Armour Repair",
+                "rank":4,
+                "group":"Blacksmith",
+                "prerequisites":["Blacksmith Rank 3"],
+                "description": "During a short rest, can repair one item of Medium or Heavy armour, restoring 2 lost Resistance.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 5":{
+                "name": "Advanced Armoursmith",
+                "rank":5,
+                "group":"Blacksmith",
+                "prerequisites":["Blacksmith Rank 4"],
+                "description": "Can craft Crude Heavy armour and normal Medium Armour.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 6":{
+                "name": "Advanced Weaponsmith",
+                "rank":6,
+                "group":"Blacksmith",
+                "prerequisites":["Blacksmith Rank 5"],
+                "description": "Can craft Masterwork Heavy Armour.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 7":{
+                "name": "Expert Armoursmith",
+                "rank":7,
+                "group":"Blacksmith",
+                "prerequisites":["Blacksmith Rank 6"],
+                "description": "Can craft Masterwork Medium Armour, and normal Heavy Armour.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 8":{
+                "name": "Expert Weaponsmith",
+                "rank":8,
+                "group":"Blacksmith",
+                "prerequisites":["Blacksmith Rank 7"],
+                "description": "Can craft Masterwork Specialist Weaponry.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Blacksmith Rank 9":{
+                "name": "Legendary Armour Crafting",
+                "rank":9,
+                "group":"Blacksmith",
+                "prerequisites":["Blacksmith Rank 8"],
+                "description": "Can craft Masterwork Heavy Armour.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Fletcher Rank 0":{
+                "name": "Apprentice Fletcher",
+                "rank":0,
+                "group":"Fletcher",
+                "prerequisites":[],
+                "description": "Can craft basic Arrows and normal Quivers (capacity 10). Gain a Contact (a fletcher you apprenticed for).",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Fletcher Rank 1":{
+                "name": "Basic Bowcraft",
+                "rank":1,
+                "group":"Fletcher",
+                "prerequisites":["Fletcher Rank 0"],
+                "description": "Can craft normal bows.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Fletcher Rank 2":{
+                "name": "Basic Quivercraft",
+                "rank":2,
+                "group":"Fletcher",
+                "prerequisites":["Fletcher Rank 1"],
+                "description": "Can craft Large Quivers (capacity 15).",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Fletcher Rank 3":{
+                "name": "Basic Crossbowcraft",
+                "rank":3,
+                "group":"Fletcher",
+                "prerequisites":["Fletcher Rank 2"],
+                "description": "Can craft normal crossbows.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Fletcher Rank 4":{
+                "name": "Advanced Arrowcraft",
+                "rank":4,
+                "group":"Fletcher",
+                "prerequisites":["Fletcher Rank 3"],
+                "description": "Can craft Masterwork arrows (+1 damage).",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Fletcher Rank 5":{
+                "name": "Advanced Bowcraft",
+                "rank":5,
+                "group":"Fletcher",
+                "prerequisites":["Fletcher Rank 4"],
+                "description": "Can craft Masterwork bows.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Fletcher Rank 6":{
+                "name": "Advanced Crossbowcraft",
+                "rank":6,
+                "group":"Fletcher",
+                "prerequisites":["Fletcher Rank 5"],
+                "description": "Can craft Masterwork crossbows.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Academic Rank 0":{
+                "name": "Broad Foundations",
+                "rank":0,
+                "group":"Academic",
+                "prerequisites":[],
+                "description": "You have a decent overview of several academic topics. You may be able to recall basic information about them at will.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Academic Rank 1":{
+                "name": "Academic Training",
+                "rank":1,
+                "group":"Academic",
+                "prerequisites":["Academic Rank 0"],
+                "description": "Choose any INT or WIS based skill to become proficient in.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Academic Rank 2":{
+                "name": "Academic Rigour",
+                "rank":2,
+                "group":"Academic",
+                "prerequisites":["Academic Rank 1"],
+                "description": "You know how to formulate and test hypotheses. Your conclusions will be respected by others with the Academic Rigour trait, and they will not question your findings when you provide sufficient proof.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Academic Rank 3":{
+                "name": "Academic Expertise",
+                "rank":3,
+                "group":"Academic",
+                "prerequisites":["Academic Rank 2"],
+                "description": "Gain expertise in the same field you already became proficient in. Alternatively, choose another INT or WIS skill to become proficient in.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Academic Rank 4":{
+                "name": "Reputable Academic",
+                "rank":4,
+                "group":"Academic",
+                "prerequisites":["Academic Rank 3"],
+                "description": "You have published some of your results and become famous (or infamous) in your field. Others with Academic Training will recognize your name and respect your opinion. Gain a Contact in the same field with whom you have corresponded in depth.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Academic Rank 5":{
+                "name": "Honourary Professorship",
+                "rank":5,
+                "group":"Academic",
+                "prerequisites":["Academic Rank 4"],
+                "description": "You have been granted honours by a reputable institution. You can stay there for free, and use its libraries and laboratories freely. Not everyone is happy about this. Gain a Rival.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Academic Rank 6":{
+                "name": "Professorship",
+                "rank":6,
+                "group":"Academic",
+                "prerequisites":["Academic Rank 5"],
+                "description": "You have been offered a laboratory/ office and salary by your institution. The salary starts at 1400/month, increasing by 300 per year spent in the position up to 5000. The institution must be credited on and informed of all research. Once per year, you must visit the institution for a week to give a lecture series.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Academic Rank 7":{
+                "name": "Controversy/Acclaim",
+                "rank":7,
+                "group":"Academic",
+                "prerequisites":["Academic Rank 6"],
+                "description": "You have been involved in a scandal or incredible discovery. Either way, it has made you both friends and enemies. Gain a Nemesis and a Contact. Your name is well-known and can bring you both respect and derision.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Merchant Rank 0":{
+                "name": "Appraiser's Eye",
+                "rank":0,
+                "group":"Merchant",
+                "prerequisites":[],
+                "description": "Estimate an item's worth on sight.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Merchant Rank 1":{
+                "name": "Merchant's Instinct",
+                "rank":1,
+                "group":"Merchant",
+                "prerequisites":["Merchant Rank 0"],
+                "description": "Spending a day in a market will give you an idea of what is being sold cheaply and bought for a high price.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Merchant Rank 2":{
+                "name": "Salesman",
+                "rank":2,
+                "group":"Merchant",
+                "prerequisites":["Merchant Rank 1"],
+                "description": "10% cost reduction on purchases, 10% boost to sales.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Merchant Rank 3":{
+                "name": "Merchant's Bounty",
+                "rank":3,
+                "group":"Merchant",
+                "prerequisites":["Merchant Rank 2"],
+                "description": "Gain a Contact who is able to help you buy and sell goods at a profit. Left to their own devices, you will receive a monthly income of 200 gold with no effort which you can retrieve from them.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Hunter Rank 0":{
+                "name": "Apprentice Hunter",
+                "rank":0,
+                "group":"Hunter",
+                "prerequisites":[],
+                "description": "Gain Proficiency in Survivalist checks.",
+                "modifiers":{},
+                "proficiency":["Survival"]
+                },
+            "Hunter Rank 1":{
+                "name": "Survivalist",
+                "rank":1,
+                "group":"Hunter",
+                "prerequisites":["Hunter Rank 0"],
+                "description": "Recover more resources from bodies.",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Hunter Rank 2":{
+                "name": "Ranged Weapon Proficiency",
+                "rank":2,
+                "group":"Hunter",
+                "prerequisites":["Hunter Rank 1"],
+                "description": "Gain proficiency in longbow, shortbow, spear or sling (choose one).",
+                "modifiers":{},
+                "proficiency":[]
+                },
+            "Hunter Rank 3":{
+                "name": "Favoured Enemy",
+                "rank":3,
+                "group":"Hunter",
+                "prerequisites":["Hunter Rank 2"],
+                "description": "Gain a favoured enemy.",
+                "modifiers":{},
                 "proficiency":[]
                 }
             },

@@ -13,13 +13,13 @@
         "shieldbearer": 0,
         "wood_walker": 0
     },
-    "heritage": "Fionn Deis",
+    "heritage": "",
     "items": [
         "item_1",
         "item_2",
         "item_3"
     ],
-    "race": "Human",
+    "race": "Gorgo",
     "rp_attributes": {
         "age": 20,
         "background": "",
@@ -41,130 +41,130 @@
             "manual": 0,
             "proficiency": 0,
             "stat": "Wisdom",
-            "value": -5
+            "value": -1
         },
         "Athletics": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Strength",
-            "value": -1
+            "value": 3
         },
         "Diplomacy": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Charisma",
-            "value": -5
+            "value": -3
         },
         "Geography": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Intelligence",
-            "value": -5
+            "value": 3
         },
         "History": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Intelligence",
-            "value": -5
+            "value": 3
         },
         "Insight": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Intelligence",
-            "value": -5
+            "value": 3
         },
         "Intimidation": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Charisma",
-            "value": -5
+            "value": -3
         },
         "Ley Lore": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Charisma",
-            "value": -5
+            "value": -3
         },
         "Medicine": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Intelligence",
-            "value": -5
+            "value": 3
         },
         "Nature": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Intelligence",
-            "value": -5
+            "value": 3
         },
         "Perception": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Wisdom",
-            "value": -5
+            "value": -1
         },
         "Performance": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Charisma",
-            "value": -5
+            "value": -3
         },
         "Profession 1": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Strength",
-            "value": -1
+            "value": 3
         },
         "Profession 2": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Dexterity",
-            "value": 1
+            "value": -2
         },
         "Profession 3": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Constitution",
-            "value": -5
+            "value": 3
         },
         "Religion": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Intelligence",
-            "value": -5
+            "value": 3
         },
         "Riding": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Dexterity",
-            "value": 1
+            "value": -2
         },
         "Stealth": {
             "manual": 0,
             "proficiency": 0,
             "stat": "Dexterity",
-            "value": 1
+            "value": -2
         },
         "Subtlety": {
             "manual": 0,
             "proficiency": 0,
-            "stat": "Wisdom",
-            "value": -5
+            "stat": "Intelligence",
+            "value": 3
         }
     },
     "stats": {
         "STAT:AC": 10,
-        "STAT:CHA": 10,
-        "STAT:CON": 6,
-        "STAT:DEX": 12,
+        "STAT:CHA": 4,
+        "STAT:CON": 16,
+        "STAT:DEX": 6,
         "STAT:HP": 8,
         "STAT:INIT": 0,
-        "STAT:INT": 8,
+        "STAT:INT": 15,
         "STAT:MOR": 30,
         "STAT:PROF": 2,
         "STAT:RES": 0,
         "STAT:SPD": 30,
-        "STAT:STR": 8,
+        "STAT:STR": 16,
         "STAT:WIS": 8
     },
     "traits": {
